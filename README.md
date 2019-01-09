@@ -1,5 +1,7 @@
 # Desafio Neomind
-Foi utilizado da versão: 1.8.0_91 do Java <br />
+Foi utilizado da versão: 1.8.0_91 do Java<br />
+Existem mais comentários no código, detalhando mais o funcionamento do código, a baixo é uma visão geral do funcionamento do código<br />
+<br />
 Funcionamento do código: <br />
 1 - O programa inicializa as variaveis <br />
 2 - O programa inicial o do{...}while <br />
