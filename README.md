@@ -1,5 +1,5 @@
-# Desafio_Neomind
-Funcionamento: <br />
+# Desafio Neomind
+Funcionamento do código: <br />
 1 - O programa inicializa as variaveis <br />
 2 - O programa inicial o do{...}while <br />
 3 - Usuario informa o horario no formato HH:MM <br />
