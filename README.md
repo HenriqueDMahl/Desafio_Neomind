@@ -1,7 +1,7 @@
 # Desafio_Neomind
 Funcionamento:
-		1 - O programa inicializa as variaveis
-		2 - O programa inicial o do{...}while
+		1 - O programa inicializa as variaveis__
+		2 - O programa inicial o do{...}while__
 		3 - Usuario informa o horario no formato HH:MM
 		4 - O programa através do substring pega o valor de hora e minuto informado para o usuario
 		5 - O programa tenta converter os valores de hora e minuto obtidos para inteiros
