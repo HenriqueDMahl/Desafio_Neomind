@@ -56,6 +56,7 @@ public class relogio {
 				horaI = -1;
 			}
 			
+		//O 24 horas não é utilizado convencionalmente para representar meia noite (00:00) o mesmo se aplica para 60 minutos
 		}while(horaI < 0 || horaI >= 24 || minutoI < 0 || minutoI >= 60); //Garante que seja inserido apenas valores validos
 		
 		//Pega o dia, mes e ano
@@ -80,6 +81,15 @@ public class relogio {
 	
 	public long retornaAnguloRelogio(GregorianCalendar horario){
 		
+		/*
+		Para se alcançar o valor de quanto o ponteiro de minutos se mexia,
+		foi tomado como base que 00:15h equivale a um angulo de 90 graus
+		logo é possivel ver que 00:01h é 6 graus já que 90/15 = 6
+		
+		A mesma logica se aplicou para o quanto um ponteiro de hora
+		tomando como base que 03:00h equivale a um angulo de 90 graus
+		é possivel ver que 01:00h é 30 graus já que 90/3 = 30
+		*/
 		//O valor de graus que o ponteiro de minuto se movimenta
 		int grauM = 6;
 		//O valor de graus que o ponteiro de horas se movimenta
