@@ -75,7 +75,7 @@ public class relogio {
 		long angulo = r.retornaAnguloRelogio(data);
 		
 		//Printa o resultado
-		System.out.println(horario+" possui um angulo de "+ angulo);
+		System.out.println(horario+"h possui um angulo de "+ angulo);
     }
 	
 	public long retornaAnguloRelogio(GregorianCalendar horario){
